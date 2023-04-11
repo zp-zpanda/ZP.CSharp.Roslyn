@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZP.CSharp.Roslyn", "ZP.CSharp.Roslyn\ZP.CSharp.Roslyn.csproj", "{B7F72A04-6B9F-481A-8A77-37B1139C444E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZP.CSharp.Roslyn.Tests", "ZP.CSharp.Roslyn.Tests\ZP.CSharp.Roslyn.Tests.csproj", "{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B7F72A04-6B9F-481A-8A77-37B1139C444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F72A04-6B9F-481A-8A77-37B1139C444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F72A04-6B9F-481A-8A77-37B1139C444E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
