@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZP.CSharp.Roslyn", "ZP.CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZP.CSharp.Roslyn.Tests", "ZP.CSharp.Roslyn.Tests\ZP.CSharp.Roslyn.Tests.csproj", "{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZP.CSharp.Roslyn.Docs", "ZP.CSharp.Roslyn.Docs\ZP.CSharp.Roslyn.Docs.csproj", "{9A5F4D6A-D66F-4BBD-AFB6-5A11454D418C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A70B33D-FE92-4CF8-8BD8-902B60EED47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5F4D6A-D66F-4BBD-AFB6-5A11454D418C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5F4D6A-D66F-4BBD-AFB6-5A11454D418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5F4D6A-D66F-4BBD-AFB6-5A11454D418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5F4D6A-D66F-4BBD-AFB6-5A11454D418C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
