@@ -16,6 +16,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <ProjectReference Include="../ZP.CSharp.Roslyn/ZP.CSharp.Roslyn.csproj" />
+    <ProjectReference Condition="'$(TestWithLatestBuild)' == 'true'" Include="../ZP.CSharp.Roslyn/ZP.CSharp.Roslyn.csproj" ReferenceOutputAssembly="false"/>
   </ItemGroup>
+  <UsingTask Condition="'$(TestWithLatestBuild)' == 'true'" TaskName="ZP.CSharp.Roslyn.RoslynTask" AssemblyFile="./source-bin/ZP.CSharp.Roslyn.dll" />
+  <Target Condition="'$(TestWithLatestBuild)' == 'true'" Name="ZPTask" BeforeTargets="Build">
+    <RoslynTask />
+  </Target>
 </Project>
